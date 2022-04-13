@@ -23,6 +23,14 @@ textarea {
   margin-bottom: 10px;
 }
 
+.label-form {
+  margin-top: 5px;
+}
+
+.btn-form {
+  margin-top: 15px;
+}
+
 /* タイポグラフィ */
 
 h1, h2, h3, h4, h5, h6 {
@@ -48,6 +56,7 @@ h2 {
 p {
   font-size: 1.1em;
   line-height: 1.7em;
+  font-weight: bold;
 }
 
 /* ヘッダー */
@@ -57,15 +66,37 @@ p {
   margin-right: 10px;
   font-size: 1.7em;
   color: #fff;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
+  font-style: italic;
 }
 
 #logo:hover {
-  color: #fff;
+  color: silver;
   text-decoration: none;
+}
+
+#header {
+  background-color: teal;
+}
+
+li .header-list {
+  color: #fff !important;
+  font-weight: bold;
+  &:hover {
+    color: silver !important;
+    text-decoration: none;
+  }
+}
+
+#dropdown-title {
+  background-color: teal;
+}
+
+#dropdown-bg {
+  background-color: silver;
 }
 
 /* デバッグウインドウ */
